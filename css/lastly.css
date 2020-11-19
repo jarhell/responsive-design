@@ -1,0 +1,29 @@
+html , body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  /*text-shadow: 4px 4px 4px #aaa;*/
+  color: white;
+  background-color: black;
+}
+/*@media screen and (min-width:480px) and (max-width: 767px) {
+  body{
+    background-color: white;
+    background-color: black;
+    text-shadow:2px 1px 3px #f1f1f1;
+  }
+}*/
+@media screen and (min-width:760px) {
+  body{
+    background-color: yellowgreen;
+    .column {
+      width: 220px;
+      float: left;
+      padding: 15px;
+      font-family: 'Tangerine';
+      color: white;
+    }
+  }
+}
